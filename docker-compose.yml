@@ -1,0 +1,17 @@
+---
+version: '3'
+
+services:
+  web:
+    build:
+      context: web
+    depends_on:
+      - app
+    ports:
+      - 80:80
+
+  app:
+    build:
+      context: app
+    ports:
+      - 9000
