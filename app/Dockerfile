@@ -8,4 +8,4 @@ FROM php:7-fpm-alpine
 WORKDIR /var/www
 
 COPY ./ /app
-COPY --from=composer /app/vendor vendor
+COPY --from=composer /app/vendor /app/vendor
