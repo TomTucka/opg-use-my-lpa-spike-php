@@ -24,7 +24,7 @@ class JwtAuthenticationFactory
                 //  Re-set the JWT cookie using the updated data and a new timestamp
                 $ttl = new DateTime(sprintf('+%s seconds', $jwtConfig['ttl']));
                 $jwtCookie = JWT::encode($_SESSION['jwt-payload'], $jwtConfig['secret'], $jwtConfig['algo']);
-                setcookie($jwtConfig['cookie'], $jwtCookie, $ttl->getTimeStamp(), '', '', true);
+                setcookie($jwtConfig['cookie'], $jwtCookie, $ttl->getTimeStamp(), '', '', false);
             },
         ];
         return new JwtAuthentication(array_merge($jwtConfig, $jwtHandlers));

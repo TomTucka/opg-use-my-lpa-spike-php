@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f987a57-9cfe-4abc-a36a-1ff42d0af4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/App/src/Handler/Traits/JwtTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/CsrfMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddlewareFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/autoload/zend-expressive.global.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/autoload/zend-expressive.global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/pipeline.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/pipeline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/src/ConfigProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/src/ConfigProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,29 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddleware.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="520">
+              <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddlewareFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="520">
+              <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
               <folding>
                 <element signature="e#41#54#0#PHP" expanded="true" />
               </folding>
@@ -82,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/App/src/ConfigProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="837">
               <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
                 <element signature="e#49#68#0#PHP" expanded="true" />
@@ -122,10 +100,10 @@
         <option value="$PROJECT_DIR$/app/src/App/src/ConfigProvider.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/app/composer.json" />
-        <option value="$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php" />
         <option value="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" />
         <option value="$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddlewareFactory.php" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php" />
       </list>
     </option>
   </component>
@@ -308,12 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551259431257</updated>
       <workItem from="1551259432500" duration="4339000" />
-      <workItem from="1551348842732" duration="8719000" />
+      <workItem from="1551348842732" duration="9171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13683000" />
+    <option name="totallyTimeSpent" value="14135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-154" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -395,13 +373,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/autoload/zend-expressive.global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -419,16 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/App/src/ConfigProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#49#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/CsrfMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -436,13 +397,6 @@
           <folding>
             <element signature="e#42#74#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddlewareFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -460,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#41#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -484,6 +428,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/App/src/ConfigProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="e#49#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/pipeline.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -494,10 +448,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/autoload/zend-expressive.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddlewareFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="520">
+          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/App/src/Middleware/Session/JwtAuthenticationFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+          <folding>
+            <element signature="e#41#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
