@@ -9,9 +9,12 @@ services:
       - app
     ports:
       - 80:80
-
+    volumes:
+      - ./web:/var/www/web
   app:
     build:
       context: app
     ports:
       - 9000
+    volumes:
+      - ./app:/var/www/app
