@@ -14,6 +14,15 @@ return [
     // Enable debugging; typically used to provide debugging information within templates.
     'debug' => false,
 
+    'jwt' => [
+        'secret'    => 'Z0E$L43c68%H2YI',
+        'path'      => '/',
+        'header'    => 'use-my-lpa',
+        'cookie'    => 'use-my-lpa',
+        'ttl'       => 60 * 15, //  15 minutes
+        'algo'      => 'HS256',
+    ],
+
     'zend-expressive' => [
         // Provide templates for the error handling middleware to use when
         // generating responses.

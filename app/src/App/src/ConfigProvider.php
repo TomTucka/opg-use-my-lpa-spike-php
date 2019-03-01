@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace App;
 
+use CsrfMiddleware;
+use JwtAuthenticationFactory;
+use SessionMiddleware;
+use SessionMiddlewareFactory;
+use Tuupola\Middleware\JwtAuthentication;
+
 /**
  * The configuration provider for the App module
  *
@@ -34,10 +40,17 @@ class ConfigProvider
         return [
             'invokables' => [
                 Handler\PingHandler::class => Handler\PingHandler::class,
+
             ],
             'factories'  => [
+
+                // Handlers
                 Handler\HomePageHandler::class => Handler\HomePageHandlerFactory::class,
                 Handler\ConfirmViewHandler::class => Handler\ConfirmViewHandlerFactory::class,
+
+                //Factories
+                JwtAuthentication::class                            => Middleware\Session\JwtAuthenticationFactory::class,
+                Middleware\Session\SessionMiddleware::class         => Middleware\Session\SessionMiddlewareFactory::class,
             ],
         ];
     }
