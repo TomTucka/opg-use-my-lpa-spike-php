@@ -46,11 +46,11 @@ class ConfigProvider
 
                 // Handlers
                 Handler\HomePageHandler::class => Handler\HomePageHandlerFactory::class,
+                Handler\ConfirmViewHandler::class => Handler\ConfirmViewHandlerFactory::class,
 
                 //Factories
                 JwtAuthentication::class                            => Middleware\Session\JwtAuthenticationFactory::class,
                 Middleware\Session\SessionMiddleware::class         => Middleware\Session\SessionMiddlewareFactory::class,
-
             ],
         ];
     }
