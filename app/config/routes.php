@@ -33,7 +33,7 @@ use Zend\Expressive\MiddlewareFactory;
  * );
  */
 return function (Application $app, MiddlewareFactory $factory, ContainerInterface $container) : void {
-    $app->get('/', App\Handler\HomePageHandler::class, 'home');
+    $app->route('/', App\Handler\HomePageHandler::class, ['GET', 'POST'], 'home');
     $app->get('/confirm-view', App\Handler\ConfirmViewHandler::class, 'confirmView');
     $app->get('/api/ping', App\Handler\PingHandler::class, 'api.ping');
 };

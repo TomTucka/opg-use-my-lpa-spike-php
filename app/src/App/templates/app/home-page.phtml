@@ -19,44 +19,43 @@
                 <div class="govuk-grid-column-one-half">
                     <h1 class="govuk-heading-xl">Enter</h1>
 
-                    <fieldset class="govuk-fieldset">
-
-                        <div class="govuk-form-group">
-                            <label class="govuk-label" for="address-line-1">
-                                Donor's surname
-                            </label>
-                            <input class="govuk-input" id="address-line-1" name="address-line-1" type="text">
-                        </div>
-
-                        <div class="govuk-form-group">
-                            <label class="govuk-label" for="share-code">
-                                Share code
-                            </label>
-                            <input class="govuk-input govuk-input--width-10" id="share-code-one" name="share-code-one"
-                                type="text">
-                            /
-                            <input class="govuk-input govuk-input--width-10" id="share-code-two" name="share-code-two"
-                                type="text" style="width: 48%;">
-                        </div>
-
-                        <details class="govuk-details">
-                            <summary class="govuk-details__summary">
-                                <span class="govuk-details__summary-text">
-                                    What is a share code?
-                                </span>
-                            </summary>
-                            <div class="govuk-details__text">
-                                A share code is given to you by the donor or an attorney named on the lasting power
-                                of
-                                attorney.
+                    <form method="post">
+                        <fieldset class="govuk-fieldset">
+    
+                            <div class="govuk-form-group">
+                                <label class="govuk-label" for="address-line-1">
+                                    Donor's surname
+                                </label>
+                                <input class="govuk-input" id="address-line-1" name="address-line-1" type="text">
                             </div>
-                        </details>
-
-                        <button type="submit" class="govuk-button">
-                            Save and continue
-                        </button>
-                    </fieldset>
-
+    
+                            <div class="govuk-form-group">
+                                <label class="govuk-label" for="share-code">
+                                    Share code
+                                </label>
+                                <input class="govuk-input govuk-input--width-10" id="share-code-one" name="share-code-one"
+                                    type="text">
+                                /
+                                <input class="govuk-input govuk-input--width-10" id="share-code-two" name="share-code-two"
+                                    type="text" style="width: 48%;">
+                            </div>
+    
+                            <details class="govuk-details">
+                                <summary class="govuk-details__summary">
+                                    <span class="govuk-details__summary-text">
+                                        What is a share code?
+                                    </span>
+                                </summary>
+                                <div class="govuk-details__text">
+                                    A share code is given to you by the donor or an attorney named on the lasting power
+                                    of
+                                    attorney.
+                                </div>
+                            </details>
+    
+                            <button type="submit" class="govuk-button">Save and continue</button>
+                        </fieldset>
+                    </form>
                 </div>
             </div>
 
