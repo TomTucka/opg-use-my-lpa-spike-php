@@ -17,4 +17,4 @@ services:
     ports:
       - 9000
     volumes:
-      - ./app:/var/www/app
+      - ./app:/app
