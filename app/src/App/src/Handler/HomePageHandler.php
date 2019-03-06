@@ -57,12 +57,10 @@ class HomePageHandler implements RequestHandlerInterface
 
             $this->addTokenData('Data', $result);
 
-
             $data = $this->getTokenData('Data');
             $data = $blockCipher->decrypt($data);
 
             $jsonData = json_decode($data);
-
 
             return new HtmlResponse($this->template->render('app::confirm-view', $jsonData));
             //('app::confirm-view', $data));

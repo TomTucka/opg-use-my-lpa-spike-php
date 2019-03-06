@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f987a57-9cfe-4abc-a36a-1ff42d0af4dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4f987a57-9cfe-4abc-a36a-1ff42d0af4dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60194000" />
+    <option name="totallyTimeSpent" value="60601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="335" width="1279" height="967" extended-state="0" />
