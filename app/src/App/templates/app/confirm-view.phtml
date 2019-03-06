@@ -16,13 +16,12 @@
         <main class="govuk-main-wrapper">
 
             <div class="govuk-grid-row">
-                <div class="govuk-grid-column-one-half">
+                <div class="govuk-grid-column-three-quarters">
                     <h1 class="govuk-heading-xl">Confirmation</h1>
 
                         <div class="govuk-details_text govuk-body">
-                            By continuing, you are confirming << Name >> shared following LPA with you and that you are authorised to view it:
+                            By continuing, you are confirming <?=  ucfirst($this->data['donor-surname'])  ?> shared following LPA with you and that you are authorised to view it:
                         </div>
-
 
                         <table class="govuk-table">
                             <tr class="govuk-table__row">
@@ -31,11 +30,11 @@
                             </tr>
                             <tr class="govuk-table__row">
                                 <th class="govuk-table__header" scope="row">Type of LPA</th>
-                                <td class="govuk-table__cell"><< Health and Welfare >></td>
+                                <td class="govuk-table__cell"> Health and Welfare </td>
                             </tr>
                             <tr class="govuk-table__row">
-                                <th class="govuk-table__header" scope="row">Donor name</th>
-                                <td class="govuk-table__cell"></td>
+                                <th class="govuk-table__header" scope="row">Donor name that I entered</th>
+                                <td class="govuk-table__cell"><?= ($this->data == true) ? ucfirst($this->data['donor-surname']) : 'Not provided' ?></td>
                             </tr>
                             </tbody>
                         </table>
