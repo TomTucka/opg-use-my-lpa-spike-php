@@ -63,8 +63,6 @@ class HomePageHandler implements RequestHandlerInterface
             $jsonData = json_decode($data);
 
             return new HtmlResponse($this->template->render('app::confirm-view', $jsonData));
-            //('app::confirm-view', $data));
-            //return new HtmlResponse(print_r($data, true));
         }
 
         return new HtmlResponse($this->template->render('app::home-page'));
