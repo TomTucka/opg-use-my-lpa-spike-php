@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f987a57-9cfe-4abc-a36a-1ff42d0af4dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/src/Handler/ConfirmViewHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/src/Handler/ConfirmViewHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +18,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="60" />
-          <entry key="php" value="3596" />
+          <entry key="php" value="3597" />
           <entry key="phtml" value="944" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="71" />
-          <entry key="PHP" value="4529" />
+          <entry key="PHP" value="4530" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="56" column="47" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="56" selection-end-column="47" />
+            <state relative-caret-position="539">
+              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="60" />
               <folding>
                 <element signature="e#57#89#0#PHP" expanded="true" />
               </folding>
@@ -135,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="25" column="180" selection-start-line="25" selection-start-column="180" selection-end-line="25" selection-end-column="180" />
+            <state relative-caret-position="165">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -213,11 +208,11 @@
         <option value="$PROJECT_DIR$/app/src/App/templates/app/home-page.phtml" />
         <option value="$PROJECT_DIR$/app/src/App/src/Middleware/Session/SessionMiddleware.php" />
         <option value="$PROJECT_DIR$/app/src/App/src/Handler/DataHandler.php" />
-        <option value="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" />
         <option value="$PROJECT_DIR$/app/src/App/src/Handler/Traits/JwtTrait.php" />
         <option value="$PROJECT_DIR$/app/src/App/src/Handler/ConfirmViewHandler.php" />
         <option value="$PROJECT_DIR$/app/config/routes.php" />
         <option value="$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml" />
+        <option value="$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php" />
       </list>
     </option>
   </component>
@@ -529,12 +524,12 @@
       <workItem from="1551259432500" duration="4339000" />
       <workItem from="1551348842732" duration="9171000" />
       <workItem from="1551449279961" duration="11049000" />
-      <workItem from="1551954098610" duration="65643000" />
+      <workItem from="1551954098610" duration="65924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129441000" />
+    <option name="totallyTimeSpent" value="129722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="125" width="1589" height="798" extended-state="0" />
@@ -874,16 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="56" selection-end-column="47" />
-          <folding>
-            <element signature="e#57#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App/src/Handler/DataHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -913,8 +898,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/App/templates/app/confirm-view.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="25" column="180" selection-start-line="25" selection-start-column="180" selection-end-line="25" selection-end-column="180" />
+        <state relative-caret-position="165">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/App/src/Handler/HomePageHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="60" />
+          <folding>
+            <element signature="e#57#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

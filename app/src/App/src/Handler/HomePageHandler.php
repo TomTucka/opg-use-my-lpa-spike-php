@@ -61,11 +61,6 @@ class HomePageHandler implements RequestHandlerInterface
             $this->addTokenData('Data', $result);
 
             return new RedirectResponse('/confirm-view');
-
-
-//            $data = $this->getTokenData('Data');
-//            $data = $blockCipher->decrypt($data);
-//            $jsonData = json_decode($data);
         }
 
         // If not a POST return a rendering of the home page
