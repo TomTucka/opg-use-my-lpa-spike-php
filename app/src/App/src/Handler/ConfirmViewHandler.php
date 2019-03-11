@@ -5,12 +5,15 @@ declare(strict_types=1);
 namespace App\Handler;
 
 use App\Handler\Traits\JwtTrait;
-use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use Zend\Crypt\BlockCipher;
+use Zend\Crypt\Symmetric\Openssl;
 use Zend\Diactoros\Response\HtmlResponse;
 use Zend\Expressive\Router;
 use Zend\Expressive\Template\TemplateRendererInterface;
+use Zend\Expressive\Twig\TwigRenderer;
+use Zend\Expressive\ZendView\ZendViewRenderer;
 
 class ConfirmViewHandler implements RequestHandlerInterface
 {
@@ -36,10 +39,15 @@ class ConfirmViewHandler implements RequestHandlerInterface
         $this->template      = $template;
     }
 
-    public function handle(ServerRequestInterface $request) : ResponseInterface
+    public function handle(ServerRequestInterface $request) : \Psr\Http\Message\ResponseInterface
     {
-        $data = $this->getTokenData();
+          $blockCipher = new BlockCipher(new Openssl(['algo' => 'aes']));
+          $blockCipher->setKey('Baggies123');
 
-        return new HtmlResponse($this->template->render('app::confirm-view'));
+          $data = $this->getTokenData('Data');
+          $dataDecrypted = $blockCipher->decrypt($data);
+          $dataDecoded = json_decode($dataDecrypted);
+
+       return new HtmlResponse($this->template->render('app::confirm-view', $dataDecoded));
     }
 }
