@@ -19,6 +19,9 @@
                 <div class="govuk-grid-column-three-quarters">
                     <h1 class="govuk-heading-xl">Confirmation</h1>
 
+                    <form method="post">
+                     <fieldset class="govuk-fieldset">
+
                         <div class="govuk-details_text govuk-body">
                             By continuing, you are confirming <?=  ucfirst($this->data['donor-surname'])  ?> shared following LPA with you and that you are authorised to view it:
                         </div>
@@ -58,6 +61,8 @@
                         <button type="submit" class="govuk-button">
                             Continue
                         </button>
+                     </fieldset>
+                    </form>
                 </div>
             </div>
 
